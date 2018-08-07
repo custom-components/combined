@@ -39,7 +39,7 @@ class CombinedhCamera(Camera):
     """Representation of the camera."""
 
     def __init__(self, hass, name, entities, base_address):
-        """Initialize Unsplash Camera component."""
+        """Initialize Camera platform."""
         super().__init__()
         self.hass = hass
         self.is_streaming = False
