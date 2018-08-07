@@ -27,7 +27,7 @@ PLATFORM_SCHEMA = PLATFORM_SCHEMA.extend({
 })
 
 def setup_platform(hass, config, add_devices, discovery_info=None):
-    """Set up the Camera that works with local files."""
+    """Set up the Camera platform."""
     entities = config.get(CONF_ENTITIES)
     name = config.get(CONF_NAME)
     base_address = config.get(CONF_BASE_ADDRESS)
