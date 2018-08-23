@@ -26,3 +26,7 @@ key | description
 **base_address (Required)** | The base address for yor Home Assistant instanse.
 **entities (Required)** | A list of camera entities.
 **name (Optional)** | Give the camera a friendly name, defaults to `Combined`.
+
+***
+
+[buymeacoffee.com](https://www.buymeacoffee.com/ludeeus)
