@@ -1,4 +1,4 @@
-# camera.combined
+# camera.combined [![Build Status](https://travis-ci.org/custom-components/camera.combined.svg?branch=master)](https://travis-ci.org/custom-components/camera.combined)
 
 A camera platform that give you a combined feed of your defined camera entities.
 
