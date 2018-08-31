@@ -4,4 +4,4 @@ python:
 # pycodestyle is the new name of pep8
 install: pip install pycodestyle
 script:
-  - find . -name \*.py -exec pycodestyle --ignore=E402 {} +
+  - find . -name \*.py -exec pycodestyle {} +
