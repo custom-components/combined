@@ -1,5 +1,5 @@
 """
-A camera platform that give you a combined feed of your defined camera entities.
+A platform that give you a combined feed of your defined camera entities.
 
 For more details about this component, please refer to the documentation at
 https://github.com/custom-components/camera.combined
@@ -25,6 +25,7 @@ PLATFORM_SCHEMA = PLATFORM_SCHEMA.extend({
         vol.All(cv.ensure_list, [cv.string]),
     vol.Optional(CONF_NAME, default=DEFAULT_NAME): cv.string,
 })
+
 
 def setup_platform(hass, config, add_devices, discovery_info=None):
     """Set up the Camera platform."""
