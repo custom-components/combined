@@ -4,8 +4,8 @@ A camera platform that give you a combined feed of your defined camera entities.
 
 This will rotate the camera feeds, showing a 10 second feed from each camera before displaying the next one.
   
-To get started put `/custom_components/camera/combined.py` here:  
-`<config directory>/custom_components/camera/combined.py`  
+To get started put `/custom_components/combined/camera.py` here:  
+`<config directory>/custom_components/combined/camera.py`  
   
 **Example configuration.yaml:**
 
