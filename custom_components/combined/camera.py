@@ -10,7 +10,7 @@ import voluptuous as vol
 import homeassistant.helpers.config_validation as cv
 from homeassistant.components.camera import (PLATFORM_SCHEMA, Camera)
 
-__version__ = '0.0.1'
+__version__ = '0.0.2'
 _LOGGER = logging.getLogger(__name__)
 
 CONF_ENTITIES = 'entities'
@@ -55,7 +55,7 @@ class CombinedhCamera(Camera):
         camera = self._entities[self._count]
         state = self.hass.states.get(camera)
         attribute = state.attributes.get('entity_picture')
-        feed = requests.get(self._base_address + attribute).content
+        feed = requests.get(self._base_address + attribute, verify=False).content
         if self._count == (self._total - 1):
             self._count = 0
         else:
