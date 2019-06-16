@@ -1,6 +1,6 @@
 {
   "domain": "camera",
-  "name": "camera combined)",
+  "name": "camera combined",
   "documentation": "https://github.com/custom-components/camera.combined",
   "dependencies": [],
   "codeowners": ["@ludeeus"],
