@@ -6,5 +6,6 @@
   "codeowners": [
     "@ludeeus"
   ],
-  "requirements": []
+  "requirements": [],
+  "version": "0.1.0"
 }
