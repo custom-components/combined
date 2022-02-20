@@ -46,7 +46,6 @@ class CombinedhCamera(Camera):
         """Initialize Camera platform."""
         super().__init__()
         self.hass = hass
-        self.is_streaming = False
         self._name = name
         self._base_address = base_address
         self._entities = entities
@@ -58,6 +57,10 @@ class CombinedhCamera(Camera):
         """Return image response."""
         self.fetch_new_image()
         return self.feed
+
+    @property
+    def is_streaming(self):
+        return False
 
     @property
     def name(self):
